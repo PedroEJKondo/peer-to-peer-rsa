@@ -1,7 +1,7 @@
 # Peer to peer 
 Application to generate encrypted data and validate using a key and signature
 
-## Passos para a execução
+## Steps for execution
 
 Clone the project:
 
@@ -38,7 +38,7 @@ node index.js
 
 ```
  
-## Extrutura padrão
+## Standard structure
 
 Below is the framework with exemplary data for an indicator.
 
