@@ -41,18 +41,21 @@ node index.js
 ## Extrutura padrão
 
 Segue-se a estrutura com dados exemplares para um indicador.
- 
+
+```
 {
     data: {
-    templateId: 'XXX',
-    year: 'XXXX',
-    column: 'XXXX',
-    fields: [
+        templateId: 'XXX',
+        year: 'XXXX',
+        column: 'XXXX',
+        fields: [
+
+            -- estrutura dos campos
         
-        -- estrutura dos campos
-    ],
+        ]
+    }
 }
-}
+```
 
 ## Ferramentas integradas
 
