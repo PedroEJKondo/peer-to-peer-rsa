@@ -59,4 +59,5 @@ Segue-se a estrutura com dados exemplares para um indicador.
 
 ## Ferramentas integradas
 
+- [node-rsa] (https://www.npmjs.com/package/node-rsa)
 - [File-system] (https://www.npmjs.com/package/file-system)
