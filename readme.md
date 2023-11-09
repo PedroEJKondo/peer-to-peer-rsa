@@ -1,23 +1,23 @@
 # Peer to peer 
-Aplicação para gerar dados criptografados e validar usando uma chave e assinatura
+Application to generate encrypted data and validate using a key and signature
 
 ## Passos para a execução
 
-Clonar o projecto:
+Clone the project:
 
 ```
 git clone https://github.com/PedroEJKondo/peer-to-peer-rsa.git
 
 ```
 
-Navegar até a pasta do projecto :
+Navigate to the project folder:
 
 ```
 cd peer-to-peer 
 
 ```
 
-Executar :
+Execute :
 
 ```
 npm install
@@ -31,7 +31,7 @@ npm install
 3.Validar
     Validar submissão
 
-Executar o projecto
+Execute the project
 
 ```
 node index.js
@@ -40,7 +40,7 @@ node index.js
  
 ## Extrutura padrão
 
-Segue-se a estrutura com dados exemplares para um indicador.
+Below is the framework with exemplary data for an indicator.
 
 ```
 {
