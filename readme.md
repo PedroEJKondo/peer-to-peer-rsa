@@ -59,13 +59,16 @@ Below is the framework with exemplary data for an indicator.
         column: 'XXXX',
         fields: [
 
-            -- estrutura dos campos
+            -- field structure
         
         ]
     }
 }
 ```
 
-## Ferramentas integradas
+## Built-in tools
 
 - [node-rsa] (https://www.npmjs.com/package/node-rsa)
+
+## Create date
+08 November 2023
