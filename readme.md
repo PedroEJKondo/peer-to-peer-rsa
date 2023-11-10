@@ -3,21 +3,21 @@ Application to generate encrypted data and validate using a key and signature
 
 ## Steps for execution
 
-Tenha uma versão nodejs 14.20.0 ou superior
+### Install nodejs version 14.20.0 or higher
 
-Clone the project:
+Clone the project
 
 ```
 git clone https://github.com/PedroEJKondo/peer-to-peer-rsa.git
 ```
 
-Navigate to the project folder:
+Navigate to the project folder
 
 ```
 cd peer-to-peer 
 ```
 
-Execute :
+Execute command
 
 ```
 npm install
@@ -69,4 +69,3 @@ Below is the framework with exemplary data for an indicator.
 ## Ferramentas integradas
 
 - [node-rsa] (https://www.npmjs.com/package/node-rsa)
-- [File-system] (https://www.npmjs.com/package/file-system)
