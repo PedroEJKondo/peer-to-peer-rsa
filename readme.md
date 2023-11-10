@@ -47,19 +47,29 @@ Execute the project
 node index.js
 ```
  
-## Standard structure
+## Standard structure 
 
 Below is the framework with exemplary data for an indicator.
 
 ```
 {
     data: {
-        templateId: 'XXX',
-        year: 'XXXX',
-        column: 'XXXX',
+        templateId: '1',
+        year: '2023',
+        column: 'January',
         fields: [
+            {
+                city: 'Bengo',
+                month: 'January',
+                value: '1',
+            },
+            {
+                city: 'Benguela',
+                month: 'January',
+                value: '2',
+            },
 
-            -- field structure
+            ---
         
         ]
     }
