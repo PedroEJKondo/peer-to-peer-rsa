@@ -23,12 +23,23 @@ Execute :
 npm install
 ```
 
-1.Criação das chaves
-    Criar chaves
-2.Criar assinatura
-    Criar assinatura
-3.Validar
-    Validar submissão
+Creation of private and public keys
+
+```
+node create-keys.mjs
+```
+
+Create signature
+
+```
+node sign.mjs
+``` 
+
+Validate submission
+
+```
+node verify.mjs
+``` 
 
 Execute the project
 
