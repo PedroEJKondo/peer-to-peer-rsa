@@ -14,7 +14,7 @@ git clone https://github.com/PedroEJKondo/peer-to-peer-rsa.git
 Navigate to the project folder
 
 ```
-cd peer-to-peer 
+cd peer-to-peer-rsa
 ```
 
 Execute command
