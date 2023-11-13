@@ -1,7 +1,7 @@
 import NodeRSA from 'node-rsa';
 import fs from 'node:fs'
 
-import mockPayload from './template.mjs'
+import mockPayload from './indicador.mjs'
 
 (async (data, appKey) => {
   const privateKey = fs.readFileSync('./keys/private_key.pem')
@@ -15,7 +15,7 @@ import mockPayload from './template.mjs'
     appKey,
   }, 'base64')
 
-  fs.writeFileSync('encoded.txt', encoded)
-  fs.writeFileSync('signature.txt', signature)
+  fs.writeFileSync('./sign/encoded.txt', encoded)
+  fs.writeFileSync('./sign/signature.txt', signature)
 
 })(mockPayload.data, mockPayload.data)

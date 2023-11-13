@@ -4,10 +4,10 @@ import fs from 'node:fs';
 
 (async () => {
   
-  const encoded = fs.readFileSync('./encoded.txt', 'utf-8');
+  const encoded = fs.readFileSync('./sign/encoded.txt', 'utf-8');
 
   const publicKey = fs.readFileSync('./keys/public_key.ssh', 'utf-8');
-  const signature = fs.readFileSync('./signature.txt', 'utf-8');
+  const signature = fs.readFileSync('./sign/signature.txt', 'utf-8');
 
   const nodeRsa = new NodeRSA(publicKey);
 
