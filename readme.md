@@ -23,6 +23,11 @@ Execute command
 npm install
 ```
 
+Creation path keys, assets and sign
+
+```
+mkdir keys, assets, sign
+```
 Creation of private and public keys
 
 ```
