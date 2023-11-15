@@ -26,7 +26,7 @@ npm install
 Creating folders like keys, assets and signal
 
 ```
-mkdir keys, assets, sign
+mkdir keys assets sign
 ```
 Creation of private and public keys
 
