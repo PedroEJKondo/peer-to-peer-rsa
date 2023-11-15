@@ -77,13 +77,13 @@ Below is the table with exemplary data for a two-dimensional and multi-dimension
   // Add more entries as needed
 ]
 
-Create signature
+Create signature and encrypt indicator data
 
 ```
 node sign.mjs
 ``` 
 
-Validate submission
+Validate whether there has been a change in data based on signature and encrypted data
 
 ```
 node verify.mjs
