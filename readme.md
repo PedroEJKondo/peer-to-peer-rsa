@@ -54,7 +54,9 @@ node index.js
  
 ## Standard structure 
 
-Below is the framework with exemplary data for an indicator.
+Below is the table with exemplary data for a two-dimensional and multi-dimensional indicator.
+
+- **Two-dimensional**
 
 ```
 {
@@ -81,9 +83,23 @@ Below is the framework with exemplary data for an indicator.
 }
 ```
 
+- **templateId** - Indicator identifier
+- **year**       - Current year of submission
+- **column**     - Column open to submission
+- **fields**     - The indicator fields to be submitted
+- [
+    {
+     - **city**  - Slug of the column that will be filled
+     - **month** - Month open for submission
+     - **value** - Value to be recorded
+  },
+  
+  // Add more entries as needed
+]
+
 ## Built-in tools
 
 - [node-rsa] (https://www.npmjs.com/package/node-rsa)
 
-## Create date
-08 November 2023
+## Create date and Last updade
+08 November 2023 -> 15 Novembro 2023
