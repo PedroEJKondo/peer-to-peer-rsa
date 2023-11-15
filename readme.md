@@ -34,20 +34,6 @@ Creation of private and public keys
 node create-keys.mjs
 ```
 
-Create signature
-
-```
-node sign.mjs
-``` 
-
-Validate submission
-
-```
-node verify.mjs
-``` 
- 
-## Standard structure 
-
 Below is the table with exemplary data for a two-dimensional and multi-dimensional indicator.
 
 - **Two-dimensional**
@@ -91,6 +77,18 @@ Below is the table with exemplary data for a two-dimensional and multi-dimension
   // Add more entries as needed
 ]
 
+Create signature
+
+```
+node sign.mjs
+``` 
+
+Validate submission
+
+```
+node verify.mjs
+``` 
+ 
 ## Built-in tools
 
 - [node-rsa] (https://www.npmjs.com/package/node-rsa)
