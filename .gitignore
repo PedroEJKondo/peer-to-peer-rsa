@@ -1,5 +1,13 @@
-node_modules/
-keys/
-sign/
 .tool-versions
 package-lock.json
+
+# Ignorar todos os arquivos da pasta 'key'
+node_modules/*
+assets/*
+keys/*
+sign/*
+
+# Exceto o arquivo 'readme.rm'
+# !key/readme.rm
+# !sign/readme.rm
+# !key/readme.rm
