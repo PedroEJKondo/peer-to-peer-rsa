@@ -6,8 +6,4 @@ node_modules/*
 assets/*
 keys/*
 sign/*
-
-# Exceto o arquivo 'readme.rm'
-!key/readme.rm
-!sign/readme.rm
-!key/readme.rm
+ 
