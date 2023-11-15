@@ -1,8 +1,8 @@
 export default {
     data: {
-        templateId: 'MzDhQrrm7uakHi1ondNvT',
+        templateId: '0000000000',
         year: '2023',
-        column: 'IVº Bimestre',
+        column: 'November',
         fields: [
             {
                 provincias: 'Bengo',

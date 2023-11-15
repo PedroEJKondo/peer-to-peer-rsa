@@ -17,8 +17,7 @@ Navigate to the project folder
 cd peer-to-peer-rsa
 ```
 
-Execute command
-
+Execute command, This information must be inserted into the indicator file.
 ```
 npm install
 ```
@@ -34,7 +33,7 @@ Creation of private and public keys
 node create-keys.mjs
 ```
 
-Below is the table with exemplary data for a two-dimensional and multi-dimensional indicator.
+Below is the table with exemplary data for a two-dimensional and multi-dimensional indicator, this information must be inserted into the ```indicator.mjs``` file.
 
 - **Two-dimensional**
 
