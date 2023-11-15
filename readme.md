@@ -23,7 +23,7 @@ Execute command
 npm install
 ```
 
-Creation path keys, assets and sign
+Creating folders like keys, assets and signal
 
 ```
 mkdir keys, assets, sign
