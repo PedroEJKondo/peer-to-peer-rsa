@@ -45,12 +45,6 @@ Validate submission
 ```
 node verify.mjs
 ``` 
-
-Execute the project
-
-```
-node index.js
-```
  
 ## Standard structure 
 
