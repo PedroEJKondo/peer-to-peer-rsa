@@ -27,7 +27,7 @@ Creating folders like keys, assets and signal
 ```
 mkdir keys assets sign
 ```
-Creation of private and public keys
+Creation of private and public keys (```public_key.ssh``` and ```private_key.pem```)
 
 ```
 node create-keys.mjs
@@ -76,7 +76,7 @@ Below is the table with exemplary data for a two-dimensional and multi-dimension
   // Add more entries as needed
 ]
 
-Create signature and encrypt indicator data
+Create signature and encrypt indicator data (```encoded.txt``` and ```signature.txt```)
 
 ```
 node sign.mjs
