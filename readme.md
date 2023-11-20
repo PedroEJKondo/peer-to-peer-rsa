@@ -25,7 +25,10 @@ npm install
 Creating folders like keys, assets and signal
 
 ```
-mkdir keys assets sign
+mkdir keys
+```
+```
+mkdir sign
 ```
 Creation of private and public keys (```public_key.ssh``` and ```private_key.pem```)
 
@@ -77,6 +80,7 @@ Below is the table with exemplary data for a two-dimensional and multi-dimension
   
   // Add more entries as needed
 ]
+- **appKey**     - Application key created in the entity portal
 
 Create signature and encrypt indicator data (```encoded.txt``` and ```signature.txt```)
 
