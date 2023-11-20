@@ -97,6 +97,6 @@ export default {
         ],
     },
 
-    appKey: 'c835a4dd-0c0a-4efd-ae73-cbe8d5abe0f8',
+    appKey: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
 };
 
