@@ -17,7 +17,7 @@ Navigate to the project folder
 cd peer-to-peer-rsa
 ```
 
-Execute command, This information must be inserted into the indicator file.
+Run the command, this information should be used to extract all dependencies.
 ```
 npm install
 ```
@@ -36,7 +36,7 @@ Creation of private and public keys (```public_key.ssh``` and ```private_key.pem
 node create-keys.mjs
 ```
 
-Below is the table with exemplary data for a two-dimensional and multi-dimensional indicator, this information must be inserted into the ```indicator.mjs``` file.
+Below is the table with exemplary data for a two-dimensional and multi-dimensional indicator, this information should be inserted into the ```indicator.mjs``` file.
 
 - **Two-dimensional**
 
